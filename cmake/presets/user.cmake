@@ -36,9 +36,6 @@ set(PKG_MPI ON CACHE BOOL "" FORCE)
 # for spin lattice
 set(PKG_SPIN ON CACHE BOOL "" FORCE)
 
-# for constant external B field
-set(PKG_BFIX ON CACHE BOOL "" FORCE)
-
 set(PKG_POEMS ON CACHE BOOL "" FORCE)
 set(PKG_PYTHON ON CACHE BOOL "" FORCE)
 set(PKG_VOROFFOI ON CACHE BOOL "" FORCE)
@@ -104,3 +101,7 @@ set(PKG_USER-INTEL OFF CACHE BOOL "" FORCE)
 # build failed
 set(PKG_MPIIO OFF CACHE BOOL "" FORCE)
 set(PKG_KOKKOS OFF CACHE BOOL "" FORCE)
+
+
+# for constant external B field
+set(PKG_BFIX ON CACHE BOOL "" FORCE)
