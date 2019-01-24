@@ -31,6 +31,7 @@ class Force : protected Pointers {
   double nktv2p;                     // conversion of NkT/V to pressure
   double qqr2e;                      // conversion of q^2/r to energy
   double qe2f;                       // conversion of qE to force
+  double qBm2f;                      // conversion of qmB to force
   double vxmu2f;                     // conversion of vx dynamic-visc to force
   double xxt2kmu;                    // conversion of xx/t to kinematic-visc
   double dielectric;                 // dielectric constant
